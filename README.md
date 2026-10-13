@@ -3,3 +3,8 @@
  nom : Jinari
  prenom : fatimazahra
  grp : 3
+ Mes repences :
+ 2 question 5 : parceque en PHP les noms de variables sont sensible a la casse, C'est pourquoi les deux variables sont deffirent cars le 1er commence par une littre miniscule et 2 eme par une majuscule.
+ les noms valides : $a, $_a, $a_a, $AAA, $a1.
+
+4 question 6 :l'affichage de false avec echo ne donne rien contrairement l'affichage avec var_dump au moins il retpurne le type bool(false).

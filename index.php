@@ -1,0 +1,11 @@
+<a href="ex01.php"> Ex 01</a><br>
+<a href="ex02.php"> Ex 02</a><br>
+<a href="ex03.php"> Ex 03</a><br>
+<a href="ex04.php"> Ex 04</a><br>
+<a href="ex05.php"> Ex 05</a><br>
+<a href="ex06.php"> Ex 06</a><br>
+<a href="ex07.php"> Ex 07</a><br>
+<a href="ex08.php"> Ex 08</a><br>
+<a href="ex09.php"> Ex 09</a><br>
+<a href="ex10_get.php"> Ex 10 get</a><br>
+<a href="ex10_post.php"> Ex 10 post</a><br>
