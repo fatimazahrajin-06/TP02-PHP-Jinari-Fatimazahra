@@ -5,14 +5,15 @@
     <title>TP02 Exercice 05</title>
 </head>
 <body>
-    <form method="post">
+    <form method="post"> <!-- la methode post pour envoyer la valeur saisir au serveur php -->
         <label>Entrez votre moyenne :</label>
-        <input type="number" name="moyenne" step="0.01" min="0" max="20" required>
+        <input type="number" name="moyenne" step="0.01" required>
         <button type="submit">Valider</button>
     </form>
 
     <?php
-    if (isset($_POST['moyenne'])) {
+    if (isset($_POST['moyenne'])) { // $_post pour recuperer la valeur saisir
+        // isset() pour verifie si la valeur saisir a ete envoyer
         $moyenne = (float) $_POST['moyenne'];
 
         if ($moyenne < 0 || $moyenne > 20) {
